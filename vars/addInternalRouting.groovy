@@ -2,6 +2,8 @@
 
 
 def call(appName) {
-    echo 'Check internal routing settings for  ${params.appName}'
+ 
+    echo "Will deploy to ${params.appName}"
+    echo "Will deploy to ${appName}"
     sh "ls -la"
   }
